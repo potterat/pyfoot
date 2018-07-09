@@ -1,0 +1,6 @@
+name: tomasz
+points: 52
+quarter: BRA, ENG, NED, URU, FRA, GER, ARG, BEL 
+semi: BRA, BEL, GER, URU
+final: BRA, BEL
+winner: BRA

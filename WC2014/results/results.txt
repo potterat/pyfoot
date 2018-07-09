@@ -1,0 +1,5 @@
+eighth: BRA, CHI, COL, URU, FRA, NIG, GER, ALG, NED, MEX, COS, GRE, ARG, SWI, BEL, USA
+wquarter: BRA, COL, FRA, GER, NED, COS, ARG, BEL
+wsemi: BRA, GER, NED, ARG
+wfinal: GER, ARG
+wwinner: GER

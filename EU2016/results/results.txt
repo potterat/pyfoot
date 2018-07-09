@@ -1,0 +1,5 @@
+eighth: SWI, POL, CRO, POR, WAL, NIR, HUN, BEL, GER, SLO, ITA, SPA, FRA, IRE, ENG, ICE
+quarter: POL, POR, WAL, BEL, GER, ITA, FRA, ICE
+semi: POR, WAL, GER, FRA
+final: POR, FRA
+winner: POR

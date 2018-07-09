@@ -1,0 +1,6 @@
+name: christian
+points: 53
+quarter: POR, FRA, BRA, BEL, SPA, ARG, GER, ENG 
+semi: FRA, BRA, ARG, GER
+final: ARG, FRA
+winner: ARG

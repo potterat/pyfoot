@@ -1,0 +1,6 @@
+name: joanna
+points: 44
+quarter: BRA, ENG, SPA, URU, FRA, GER, ARG, BEL 
+semi: BRA, GER, SPA, ARG
+final: BRA, ARG
+winner: BRA

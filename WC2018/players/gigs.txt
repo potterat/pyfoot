@@ -1,0 +1,7 @@
+name: gigs
+points: 65
+eighth: URU , BEL , FRA , SPA , SWI , DEN , GER , COL 
+quarter: URU , BEL , FRA , SPA , SWI , DEN , GER , COL 
+semi: BEL, DEN, FRA, GER
+final: GER, FRA
+winner: GER

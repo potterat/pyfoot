@@ -1,0 +1,6 @@
+name: shahram
+points: 46
+quarter: BRA, COL, FRA, GER, SPA, ITA, ARG, BEL 
+semi: BRA, GER, SPA, ARG
+final: BRA, SPA
+winner: BRA

@@ -1,0 +1,6 @@
+name: joanna
+points: 42
+quarter: POL, SPA, FRA, AUS, GER, ENG, BEL, POR 
+semi: SPA, ENG, GER, FRA
+final: FRA, SPA
+winner: SPA

@@ -1,0 +1,6 @@
+name: jonas
+points: 52
+quarter: RUS, ICE, GER, ENG, SPA, ARG, SWI, POL
+semi: RUS, GER, ARG, SWI
+final: GER, SWI
+winner: SWI

@@ -1,0 +1,6 @@
+name: tom
+points: 44
+quarter: POL, SPA, FRA, AUS, GER, ENG, BEL, ITA 
+semi: SPA, BEL, ITA, FRA
+final: FRA, SPA
+winner: SPA

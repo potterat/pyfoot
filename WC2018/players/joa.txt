@@ -1,0 +1,7 @@
+name: joana
+points: 58
+eighth: URU , BEL , FRA , SPA , SWI , DEN , GER , COL 
+quarter: POR , BRA , FRA , ENG , ARG , GER , BEL , SPA
+semi: ARG , ENG , FRA , GER
+final: ARG, FRA
+winner: FRA

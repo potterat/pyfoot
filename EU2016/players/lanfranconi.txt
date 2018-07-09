@@ -1,0 +1,6 @@
+name: lanfranconi
+points: 44
+quarter: POL, CRO, ENG, ITA, GER, SPA, FRA, POR 
+semi: CRO, ENG, SPA, FRA
+final: ENG, SPA
+winner: SPA

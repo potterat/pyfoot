@@ -1,0 +1,6 @@
+name: sharham FRA
+points: 32
+quarter: POL, RTC, SPA, POR, GER, BEL, FRA, RUS 
+semi: POL, POR, GER, FRA
+final: FRA, POR
+winner: FRA

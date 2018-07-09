@@ -1,0 +1,6 @@
+name: hilario
+points: 45
+quarter: BRA, ITA, FRA, GER, SPA, URU, ARG, POR
+semi: BRA, FRA, SPA, ARG
+final: BRA, ARG
+winner: ARG

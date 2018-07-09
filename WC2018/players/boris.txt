@@ -1,0 +1,6 @@
+name: boris
+points: 52
+quarter: POR, FRA, BRA, BEL, SPA, ARG, GER, ENG 
+semi: FRA, BRA, SPA, GER
+final: GER, FRA
+winner: FRA

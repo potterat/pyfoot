@@ -1,0 +1,6 @@
+name: juana
+points: 49
+quarter: BRA, ITA, SPA, URU, NIG, GER, ARG, POR 
+semi: BRA, GER, SPA, ARG
+final: BRA, ARG
+winner: ARG

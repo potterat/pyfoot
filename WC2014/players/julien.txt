@@ -1,0 +1,6 @@
+name: julien
+points: 47
+quarter: BRA, ITA, SPA, URU, FRA, GER, ARG, BEL 
+semi: BRA, BEL, SPA, ARG
+final: REF, TER
+winner: REF

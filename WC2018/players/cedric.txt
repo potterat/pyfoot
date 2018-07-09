@@ -1,0 +1,6 @@
+name: cedric
+points: 50
+quarter: URU , FRA, BRA, BEL, SPA, ARG, GER, COL 
+semi: FRA, BRA, ARG, GER
+final: GER, BRA
+winner: BRA

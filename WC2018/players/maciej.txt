@@ -1,0 +1,6 @@
+name: maciej
+points: 53
+quarter: SPA, FRA, BRA, POL, POR, ARG, GER, ENG 
+semi: FRA, BRA, ARG, ENG
+final: BRA, ARG
+winner: BRA

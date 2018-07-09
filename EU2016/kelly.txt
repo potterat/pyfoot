@@ -1,0 +1,6 @@
+name: kelly
+points: 38
+quarter: POL, SPA, ENG, POR, GER, ITA, FRA, RUS 
+semi: SPA, POR, GER, FRA
+final: SPA, GER
+winner: GER

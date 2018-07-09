@@ -1,0 +1,6 @@
+name: arnaud
+points: 46
+quarter: BRA, ITA, SPA, ENG, FRA, GER, SWI , BEL 
+semi: BRA, GER, ENG, BEL
+final: REF, TER
+winner: REF

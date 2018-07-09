@@ -1,0 +1,6 @@
+name: mitch
+points: 37
+quarter: POL, SPA, SLO, ITA, GER, BEL, FRA, ENG 
+semi: SPA, ITA, GER, FRA
+final: SPA, GER
+winner: SPA

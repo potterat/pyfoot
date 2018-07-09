@@ -1,0 +1,6 @@
+name: jessica
+points: 47
+quarter: BRA, ENG, SPA, URU, FRA, GER, ARG, POR 
+semi: BRA, GER, SPA, POR
+final: BRA, SPA
+winner: BRA

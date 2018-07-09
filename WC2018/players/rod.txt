@@ -1,0 +1,6 @@
+name: rodolphe
+points: 56
+quarter: POR, FRA, SWI, BEL, SPA, ARG, GER, ENG 
+semi: SWI, POR, FRA, GER
+final: GER, POR
+winner: GER

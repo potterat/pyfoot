@@ -1,0 +1,6 @@
+name: rahel GER
+points: 37
+quarter: FRA, SPA, ENG, POR, GER, CRO, SWI, WAL 
+semi: SPA, POR, GER, SWI
+final: POR, GER
+winner: GER

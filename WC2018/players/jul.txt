@@ -1,0 +1,7 @@
+name: julien
+points: 58
+eighth: URU , BEL , FRA , SPA , SWI , DEN , GER , COL 
+quarter: URU , CRO , BRA , GER , SPA , FRA , COL , BEL 
+semi: URU, BRA, SPA, GER
+final: GER, BRA
+winner: GER

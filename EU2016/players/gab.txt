@@ -1,0 +1,6 @@
+name: gab
+points: 36
+quarter: POL, SPA,  ENG, BEL, GER, ITA, FRA, RUS 
+semi: POL, BEL, GER, FRA
+final: FRA, BEL
+winner: BEL

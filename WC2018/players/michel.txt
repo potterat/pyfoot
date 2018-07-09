@@ -1,0 +1,6 @@
+name: michel
+points: 52
+quarter: URU , BEL , FRA , SPA , BRA, ARG , GER , COL 
+semi: ARG, URU, BRA, GER
+final: BRA, ARG
+winner: ARG
