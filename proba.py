@@ -197,7 +197,8 @@ def myrun(path, full):
                             continue
                         for ply in players:
                             #adjust pts for eighth
-                            ply.tmppts += (senarii[current]['epts']-1) * len(set(ply.eighth)  & set(result.eighth))
+                            if(len(ply.eighth) == len(result.eighth)):
+                                ply.tmppts += (senarii[current]['epts']-1) * len(set(ply.eighth)  & set(result.eighth))
                             #add pts for quarter, semi, final and winner
                             ply.tmppts += senarii[current]['qpts']     * len(set(ply.quarter) & set(testquarter))
                             ply.tmppts += senarii[current]['spts']     * len(set(ply.semi)    & set(testsemi))
@@ -218,7 +219,8 @@ def myrun(path, full):
                                 bestplys  = [ply]
                                 bestplysN = [ply.name]
                             else: continue
-                        for ply in players: ply.tmppts = ply.points
+                        for ply in players:
+                            ply.tmppts = ply.points
 
                         names=", ".join(bestplysN)
                         result.nb_test += 1
