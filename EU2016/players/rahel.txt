@@ -1,5 +1,6 @@
 name: rahel POR
 points: 37
+eighth: FRA, SPA, ENG, POR, GER, CRO, SWI, WAL, ALB, AUS, NIR, ICE, POL, SWE, TUR, ITA
 quarter: FRA, SPA, ENG, POR, GER, CRO, SWI, WAL 
 semi: SPA, POR, GER, SWI
 final: POR, GER

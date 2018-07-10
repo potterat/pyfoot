@@ -1,5 +1,6 @@
 name: sharham POR
 points: 32
+eighth: POL, RTC, SPA, POR, GER, BEL, FRA, RUS, ENG, AUS, CRO, ITA, ROU, SWE, SWI, UKR
 quarter: POL, RTC, SPA, POR, GER, BEL, FRA, RUS 
 semi: POL, POR, GER, FRA
 final: FRA, POR

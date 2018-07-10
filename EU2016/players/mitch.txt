@@ -1,5 +1,6 @@
 name: mitch
 points: 37
+eighth: POL, SPA, SLO, ITA, GER, BEL, FRA, ENG, AUS, HON, POR, RTC, ROU, RUS, SWI, UKR
 quarter: POL, SPA, SLO, ITA, GER, BEL, FRA, ENG 
 semi: SPA, ITA, GER, FRA
 final: SPA, GER

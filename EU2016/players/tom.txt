@@ -1,5 +1,6 @@
 name: tom
 points: 44
+eighth: POL, SPA, FRA, AUS, GER, ENG, BEL, ITA, CRO, ICE, WAL, POR, ROU, SLO, SWE, SWI
 quarter: POL, SPA, FRA, AUS, GER, ENG, BEL, ITA 
 semi: SPA, BEL, ITA, FRA
 final: FRA, SPA

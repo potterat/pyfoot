@@ -1,5 +1,6 @@
 name: cedric
 points: 44
+eighth: POL, SPA, FRA, AUS, GER, ENG, BEL, ITA, CRO, ICE, WAL, POR, RTC, RUS, SWE, SWI
 quarter: POL, SPA, FRA, AUS, GER, ENG, BEL, ITA 
 semi: SPA, ENG, GER, FRA
 final: FRA, GER

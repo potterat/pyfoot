@@ -137,14 +137,14 @@ class results:
                 self.winner = cleanitem
 
 
-senarii = [{'qpts':1, 'spts': 1, 'fpts': 1, 'wpts': 1},
-           {'qpts':2, 'spts': 2, 'fpts': 2, 'wpts': 2},
-           {'qpts':2, 'spts': 3, 'fpts': 4, 'wpts': 5},
-           {'qpts':2, 'spts': 4, 'fpts': 6, 'wpts': 8},
-           {'qpts':2, 'spts': 4, 'fpts': 8, 'wpts': 16},
+senarii = [{'epts':1, 'qpts':1, 'spts': 1, 'fpts': 1, 'wpts': 1},
+         #  {'epts':2, 'qpts':2, 'spts': 2, 'fpts': 2, 'wpts': 2},
+           {'epts':1, 'qpts':2, 'spts': 3, 'fpts': 4, 'wpts': 5},
+         #  {'epts':2, 'qpts':3, 'spts': 4, 'fpts': 5, 'wpts': 6},
+         #  {'epts':1, 'qpts':2, 'spts': 4, 'fpts': 8, 'wpts': 16},
            ]
 
-def myrun(path):
+def myrun(path, full):
 
     players = []
     mypath = path+"./players/"
@@ -165,7 +165,7 @@ def myrun(path):
             for it in range(len(QI)):
                 testquarter.append(result.eighth[it*2+(int(QI[it]))])
             #test if already some games
-            if(len(set(result.quarter) & set(testquarter)) < len(result.quarter)):
+            if((full >= 1) and len(set(result.quarter) & set(testquarter)) < len(result.quarter)):
                 continue
             si = 0
             while si < 16:
@@ -175,7 +175,7 @@ def myrun(path):
                 for it in range(len(SI)):
                     testsemi.append(testquarter[it*2+(int(SI[it]))])
                     #test if already some games
-                if(len(set(result.semi) & set(testsemi)) < len(result.semi)):
+                if((full >=2 ) and len(set(result.semi) & set(testsemi)) < len(result.semi)):
                     continue
                 fi = 0
                 while fi < 4:
@@ -184,7 +184,7 @@ def myrun(path):
                     testfinal= []
                     for it in range(len(FI)):
                         testfinal.append(testsemi[it*2+(int(FI[it]))])
-                    if(len(set(result.final) & set(testfinal)) < len(result.final)):
+                    if((full >=3 ) and len(set(result.final) & set(testfinal)) < len(result.final)):
                         continue
                     wi = 0
                     while wi < 2:
@@ -193,13 +193,16 @@ def myrun(path):
                         testwinner= []
                         for it in range(len(WI)):
                             testwinner.append(testfinal[it*2+(int(WI[it]))])
-                        if(len(set(result.winner) & set(testwinner)) < len(result.winner)):
+                        if((full >=4) and len(set(result.winner) & set(testwinner)) < len(result.winner)):
                             continue
                         for ply in players:
-                            ply.tmppts += senarii[current]['qpts']* len(set(ply.quarter) & set(testquarter))
-                            ply.tmppts += senarii[current]['spts']* len(set(ply.semi)    & set(testsemi))
-                            ply.tmppts += senarii[current]['fpts']* len(set(ply.final)   & set(testfinal))
-                            ply.tmppts += senarii[current]['wpts']* len(set(ply.winner)  & set(testwinner))
+                            #adjust pts for eighth
+                            ply.tmppts += (senarii[current]['epts']-1) * len(set(ply.eighth)  & set(result.eighth))
+                            #add pts for quarter, semi, final and winner
+                            ply.tmppts += senarii[current]['qpts']     * len(set(ply.quarter) & set(testquarter))
+                            ply.tmppts += senarii[current]['spts']     * len(set(ply.semi)    & set(testsemi))
+                            ply.tmppts += senarii[current]['fpts']     * len(set(ply.final)   & set(testfinal))
+                            ply.tmppts += senarii[current]['wpts']     * len(set(ply.winner)  & set(testwinner))
                             if ply.tmppts in ply.prob_point:
                                 ply.prob_point[ply.tmppts] +=1
                             else:
@@ -265,7 +268,7 @@ def myrun(path):
         ys.append([])
     for ix in range(len(senarii)):
         x.append(1+ix)
-        xticks.append(str(senarii[ix]['qpts'])+","+str(senarii[ix]['spts'])+","+str(senarii[ix]['fpts'])+","+str(senarii[ix]['wpts']))
+        xticks.append(str(senarii[ix]['epts'])+","+str(senarii[ix]['qpts'])+","+str(senarii[ix]['spts'])+","+str(senarii[ix]['fpts'])+","+str(senarii[ix]['wpts']))
         for iy in range(len(players)):
             ys[iy].append(100*(float(players[iy].nb_win[ix])/i_test))
 
@@ -293,18 +296,26 @@ def myrun(path):
 
 def main(argv):
     thepath = ''
+    full = 0
     try:
-        opts, args = getopt.getopt(argv,"hp:",["path="])
+        opts, args = getopt.getopt(argv,"hp:f:",["path=","full="])
     except getopt.GetoptError:
-        print ('probFoot.py -p <path>')
+        print ('probFoot.py -p <path> -f <full>')
+        print ('--full : 0 or empty, only eight')
+        print ('         1 takes quarter finalist results')
+        print ('         2 takes semi finalist results')
+        print ('         3 takes finalist finalist results')
+        print ('         4 takes all results')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
             print ('probFoot.py -p <path>')
             sys.exit()
+        elif opt in ("-f", "--full"):
+            full = int(arg)
         elif opt in ("-p", "--path"):
             thepath = arg
-    myrun(thepath)
+    myrun(thepath,full)
 
 
 if __name__ == "__main__":

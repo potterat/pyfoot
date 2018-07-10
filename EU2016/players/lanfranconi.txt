@@ -1,5 +1,6 @@
 name: lanfranconi
 points: 44
+eighth: POL, CRO, ENG, ITA, GER, SPA, FRA, POR, AUS, BEL, ICE, WAL, ROU, RUS, SWE, SWI
 quarter: POL, CRO, ENG, ITA, GER, SPA, FRA, POR 
 semi: CRO, ENG, SPA, FRA
 final: ENG, SPA

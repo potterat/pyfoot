@@ -1,5 +1,6 @@
 name: rodolphe
 points: 41
+eighth: GER, SPA, ENG, ITA, POL, BEL, FRA, AUS, CRO, ICE, WAL, POR, ROU, SLO, SWI, TUR
 quarter: GER, SPA, ENG, ITA, POL, BEL, FRA, AUS 
 semi: BEL, ENG, GER, FRA
 final: FRA, ENG

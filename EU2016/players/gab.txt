@@ -1,5 +1,6 @@
 name: gab
 points: 36
+eighth: POL, SPA,  ENG, BEL, GER, ITA, FRA, RUS, HON, NIR, ICE, POR, SLO, SWE, SWI, TUR
 quarter: POL, SPA,  ENG, BEL, GER, ITA, FRA, RUS 
 semi: POL, BEL, GER, FRA
 final: FRA, BEL

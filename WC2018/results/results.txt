@@ -1,1 +1,3 @@
 eighth:   URU , POR  ,  FRA , ARG  ,  BRA , MEX  ,  BEL , JAP  ,  SPA , RUS  ,  CRO , DEN  ,  SWE , SWI  ,  COL , ENG  
+quarter: URU, FRA, BRA, BEL, RUS, CRO, SWE, ENG
+semi: FRA, BEL, CRO, ENG
